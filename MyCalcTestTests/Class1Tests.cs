@@ -17,5 +17,12 @@ namespace MyCalcTest.Tests
             Class1 cls = new Class1();
             Assert.AreEqual(cls.Add(2, 3), 5);
         }
+
+        [TestMethod()]
+        public void SubTest()
+        {
+            Class1 cls = new Class1();
+            Assert.AreEqual(expected: cls.Sub(3, 7), actual: -4);
+        }
     }
 }
