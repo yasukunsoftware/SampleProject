@@ -24,5 +24,12 @@ namespace MyCalcTest.Tests
             Class1 cls = new Class1();
             Assert.AreEqual(expected: cls.Sub(3, 7), actual: -4);
         }
+
+        [TestMethod()]
+        public void MyStandardTest()
+        {
+            MyStadard1.Class1 cls = new MyStadard1.Class1();
+            Assert.AreEqual(expected: cls.Invoke(1.2, 2.3), actual: 3.5);
+        }
     }
 }

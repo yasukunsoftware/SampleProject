@@ -67,6 +67,10 @@
       <Project>{DA630E84-3713-41B2-A828-3129FF61AA35}</Project>
       <Name>MyCalcTest</Name>
     </ProjectReference>
+    <ProjectReference Include="..\MyStadard1\MyStadard1.csproj">
+      <Project>{ab8f4150-6356-4515-8094-497abc541c77}</Project>
+      <Name>MyStadard1</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
