@@ -10,7 +10,7 @@ namespace MyCs
     {
         public int Add(int a, int b)
         {
-            throw new MyException("ダメです！", 10);
+            throw new MyException("ダメですぞ！", 10);
             return a + b;
         }
     }

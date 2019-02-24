@@ -13,7 +13,7 @@ int main(array<System::String ^> ^args)
 	}
 	catch (MyCs::MyException^ e)
 	{
-		Console::WriteLine(e->Mes->ToString() + " " + e->Id.ToString());
+		Console::WriteLine("MyException—áŠO‚ª”­¶‚µ‚Ü‚µ‚½ " + e->Mes->ToString() + " " + e->Id.ToString());
 	}
 	catch (Exception^ e)
 	{
