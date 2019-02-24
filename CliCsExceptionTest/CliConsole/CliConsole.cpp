@@ -1,4 +1,4 @@
-#include "pch.h"
+ï»¿#include "pch.h"
 
 using namespace System;
 
@@ -13,7 +13,7 @@ int main(array<System::String ^> ^args)
 	}
 	catch (MyCs::MyException^ e)
 	{
-		Console::WriteLine("MyException—áŠO‚ª”­¶‚µ‚Ü‚µ‚½ " + e->Mes->ToString() + " " + e->Id.ToString());
+		Console::WriteLine("MyExceptionä¾‹å¤–ãŒç™ºç”Ÿã—ã¾ã—ãŸ " + e->Mes->ToString() + " " + e->Id.ToString());
 	}
 	catch (Exception^ e)
 	{
